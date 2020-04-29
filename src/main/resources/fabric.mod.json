@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "fctest",
+  "version": "${version}",
+  "name": "FCTest",
+  "description": "A test of Full-Conversion Mod concepts using the Fabric API and Mixins Library.",
+  "authors": [
+    "Maowcraft"
+  ],
+  "license": "CC0-1.0",
+  "icon": "assets/fctest/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "maowcraft.fctest.FCTest"
+    ],
+    "client": [
+      "maowcraft.fctest.FCTestClient"
+    ]
+  },
+  "mixins": [
+    "fctest.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.8.2+build.194",
+    "fabric": "*",
+    "minecraft": "1.15.2"
+  }
+}

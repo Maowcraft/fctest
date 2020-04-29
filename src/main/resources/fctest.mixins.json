@@ -1,0 +1,18 @@
+{
+  "required": true,
+  "package": "maowcraft.fctest.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+
+  ],
+  "client": [
+    "TitleScreenMixin",
+    "MinecraftClientMixin",
+    "MinecraftServerMixin",
+    "SelectWorldScreenMixin",
+    "GameMenuScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
